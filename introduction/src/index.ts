@@ -72,11 +72,10 @@ const firstFlower: Flowers = {
 };
 
 function buyFlower(flower: Flowers): void {
-  console.log(
-    `Buy new plant ${flower.title}  is very ${flower.plantFamily.size}`
-  );
+  console.log(`Buy new ${flower.title}  is very ${flower.plantFamily.size}`);
 }
 buyFlower(firstFlower);
-console.log('veikia');
 
-
+let flowers: Flowers[] = [];
+flowers.push(firstFlower);
+console.log('labas');

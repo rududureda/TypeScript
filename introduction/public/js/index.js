@@ -40,8 +40,10 @@ const firstFlower = {
     plantFamily: { size: 'big', lith: false },
 };
 function buyFlower(flower) {
-    console.log(`Buy new plant ${flower.title}  is very ${flower.plantFamily.size}`);
+    console.log(`Buy new ${flower.title}  is very ${flower.plantFamily.size}`);
 }
 buyFlower(firstFlower);
-console.log('veikia');
+let flowers = [];
+flowers.push(firstFlower);
+console.log('labas');
 //# sourceMappingURL=index.js.map
